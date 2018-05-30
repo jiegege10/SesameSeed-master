@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f00">
+
+ <com.text.sesame.DialView
+     android:id="@+id/dialview"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     app:arrowSpacing="5dp"
+     app:betaTextSize="12dp"
+     app:creditLevelTextSize="18dp"
+     app:creditScoreTextSize="40dp"
+     app:evaluationTimeTextSize="14dp"
+     app:progressArcRadius="100dp"
+     app:progressArcWidth="3dp"
+     app:scaleArcRadius="75dp"
+     app:scaleArcWidth="10dp"
+     app:textSpacing="12dp" />
+
+</RelativeLayout>
